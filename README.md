@@ -5,7 +5,7 @@
 - 🎓 MSc in Data Analytics, Dublin Business School (2025–2026)
 - 💼 Previously Software Engineer at Psiog Digital, building .NET APIs and T-SQL for a Government of Israel infrastructure platform
 - 🔬 MSc research: detecting AI-generated faces with deep learning and explainable AI
-- 🤖 Currently building LLM agents with LangChain and LangGraph
+- 🤖 Currently building RAG pipelines and LLM agents with LangChain, LangGraph and MCP
 - 🌍 Looking for graduate and early-career roles in AI and data, and open to relocation
 
 🌐 **Portfolio:** [dheer08.github.io/RakshithDheer](https://dheer08.github.io/RakshithDheer/) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/rakshith-dheer-reddy-446718189) &nbsp;·&nbsp; 📫 [rakshithdheerreddy08@gmail.com](mailto:rakshithdheerreddy08@gmail.com)
@@ -17,8 +17,9 @@
 | Project | What it does | Stack |
 |---------|--------------|-------|
 | [**Detect AI-Generated Images**](https://github.com/Dheer08/Detect-AI-Generated-Images) | MSc research project: classifies 140,000 faces as real or StyleGAN-generated and uses explainable AI to show which facial regions drive each decision | TensorFlow, DenseNet121, Vision Transformers |
-| [**Feedback Analyzer**](https://github.com/Dheer08/Feedback-Analyzer) | Generative AI app that analyses batches of customer reviews for sentiment and recurring themes, with a REST backend and a dashboard | FastAPI, Gemini, Pydantic, Streamlit, SQLite |
-| [**Python Projects: LLM agents**](https://github.com/Dheer08/Python-Projects) | LangChain v1 and LangGraph series: multi-provider models, tool calling, structured output, and a human-in-the-loop agent that pauses for approval before acting | LangChain, LangGraph, OpenAI, Gemini, Groq |
+| [**Feedback Analyzer**](https://github.com/Dheer08/Feedback-Analyzer) | Generative AI app that scores customer reviews for sentiment, rating and main theme, with a validated REST backend, a dashboard and 13 tests | FastAPI, OpenAI GPT-4.1 / Gemini, Pydantic, Streamlit, SQLite |
+| [**RAG Pipeline**](https://github.com/Dheer08/Python-Projects/tree/main/Learn%20RAG) | Answers questions about a PDF collection: chunking, sentence-transformer embeddings, ChromaDB retrieval with a score threshold, and LLM answers with sources | LangChain, Sentence Transformers, ChromaDB |
+| [**LLM Agents & MCP**](https://github.com/Dheer08/Python-Projects) | LangChain v1 and LangGraph series: tool calling, structured output, ReAct agents with memory and streaming, human-in-the-loop interrupts, and agents using MCP tool servers | LangChain, LangGraph, MCP, OpenAI, Gemini, Groq |
 | [**House Price Prediction App**](https://github.com/Dheer08/House-Price-Prediction-App) | End-to-end ML web app with a train/test split, evaluation metrics, unit tests and an interactive chart | scikit-learn, Streamlit, Plotly, pytest |
 | [**Portfolio website**](https://github.com/Dheer08/RakshithDheer) | My hand-built personal site, deployed with GitHub Actions and Pages | HTML, CSS, JavaScript |
 
@@ -41,6 +42,9 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat&logo=googlegemini&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 
 **Data & analytics**
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
